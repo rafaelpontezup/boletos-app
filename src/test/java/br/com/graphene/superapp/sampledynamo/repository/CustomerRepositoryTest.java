@@ -9,7 +9,6 @@ import com.amazonaws.services.dynamodbv2.model.ProvisionedThroughput;
 
 import br.com.graphene.superapp.StackApplication;
 import br.com.graphene.superapp.sampledynamo.entity.Customer;
-import br.com.graphene.superapp.sampledynamo.repository.CustomerRepository;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;

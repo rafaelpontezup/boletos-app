@@ -1,8 +1,8 @@
-package br.com.graphene.copom.sampledynamo.exception;
+package br.com.graphene.superapp.sampledynamo.exception;
 
 import com.amazonaws.services.kms.model.NotFoundException;
 
-import br.com.graphene.copom.sampledynamo.dto.ErrorResponseMessage;
+import br.com.graphene.superapp.sampledynamo.dto.ErrorResponseMessage;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

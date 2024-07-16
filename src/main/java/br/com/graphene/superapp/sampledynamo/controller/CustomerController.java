@@ -1,11 +1,11 @@
-package br.com.graphene.copom.sampledynamo.controller;
+package br.com.graphene.superapp.sampledynamo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import br.com.graphene.copom.sampledynamo.dto.CreateCustomerRequest;
-import br.com.graphene.copom.sampledynamo.entity.Customer;
-import br.com.graphene.copom.sampledynamo.service.CustomerService;
+import br.com.graphene.superapp.sampledynamo.dto.CreateCustomerRequest;
+import br.com.graphene.superapp.sampledynamo.entity.Customer;
+import br.com.graphene.superapp.sampledynamo.service.CustomerService;
 
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.OK;

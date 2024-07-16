@@ -1,4 +1,4 @@
-package br.com.graphene.copom.sampledynamo.dto;
+package br.com.graphene.superapp.sampledynamo.dto;
 
 public class CreateCustomerRequest {
   private String name;

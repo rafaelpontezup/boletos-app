@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>br.com.graphene</groupId>
-	<artifactId>copom-comunicados-app</artifactId>
+	<artifactId>boletos-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -102,7 +102,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<finalName>copom-comunicados-app-0.0.1-SNAPSHOT-final</finalName>
+					<finalName>boletos-app-0.0.1-SNAPSHOT-final</finalName>
 				</configuration>
 			</plugin>
 		</plugins>

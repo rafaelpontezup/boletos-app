@@ -1,13 +1,17 @@
-# Copom Comunicados App
-Microsserviço responsável por expor API REST com comunicados do Copom. 
+# Super App - Boletos
+Microsserviço responsável por expor API REST de geração de boletos. Esta API será consumida por nossos clientes através da nossa aplicação mobile, a Super App.
 
-Para isso, este microsserviço se integra a API pública do Copom do projeto de Dados Abertos do Banco Central (BCP).
+Para isso, este microsserviço se integra a API pública do Bankly para geração automática e rastreável de boletos.
 
 Para mais informações:
- - [Documentos do Copom](https://dadosabertos.bcb.gov.br/dataset/atas-comunicados-copom)
-- [Documentos do Copom > API - Documentação técnica](https://dadosabertos.bcb.gov.br/dataset/atas-comunicados-copom/resource/5c0a8762-5d13-4689-963e-7c92d4f59d5c)
-- [Documentos do Copom > Dev Portal](https://www.bcb.gov.br/conteudo/dadosabertos/BCBDeinf/elements_copom.html#/)
-- [Documentos do Copom > Dev Portal > **Lista comunicados do Copom** ⭐️](https://www.bcb.gov.br/conteudo/dadosabertos/BCBDeinf/elements_copom.html#/operations/listaComunicados)
+ 1. [Documentos da Bankly](https://docs.bankly.com.br/reference/bem-vindo-ao-bankly)
+ 2. Dev Guide (v2)
+    - [Documentos da Bankly > Dev Guide > Emissão de boleto](https://docs.bankly.com.br/v2/docs/emissao-de-boleto)
+    - [Documentos da Bankly > Dev Guide > Query by authenticationCode](https://docs.bankly.com.br/v2/docs/consulta-boleto-por-authenticationcode)
+    - [Documentos da Bankly > Dev Guide > Impressão do boleto](https://docs.bankly.com.br/v2/docs/impressao-de-boleto)
+3. API (v2)
+    - [Documentos da Bankly > API > OpenAPI](https://github.com/acesso-bankly/open-api/tree/main/apis/v2)
+    - [Documentos da Bankly > API > OpenAPI > boletos](https://github.com/acesso-bankly/open-api/tree/main/apis/v2/boletos)
 
 ## Stack e tecnologias
 

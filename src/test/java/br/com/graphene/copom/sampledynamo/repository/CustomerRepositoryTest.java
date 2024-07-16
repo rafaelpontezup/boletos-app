@@ -1,4 +1,4 @@
-package br.com.graphene.copom.sampledynamo.repository;
+package br.com.graphene.superapp.sampledynamo.repository;
 
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
@@ -7,8 +7,9 @@ import com.amazonaws.services.dynamodbv2.local.server.DynamoDBProxyServer;
 import com.amazonaws.services.dynamodbv2.model.CreateTableRequest;
 import com.amazonaws.services.dynamodbv2.model.ProvisionedThroughput;
 
-import br.com.graphene.copom.StackApplication;
-import br.com.graphene.copom.sampledynamo.entity.Customer;
+import br.com.graphene.superapp.StackApplication;
+import br.com.graphene.superapp.sampledynamo.entity.Customer;
+import br.com.graphene.superapp.sampledynamo.repository.CustomerRepository;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;

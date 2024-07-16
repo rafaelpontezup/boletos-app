@@ -1,9 +1,9 @@
-package br.com.graphene.copom.sampledynamo.service;
+package br.com.graphene.superapp.sampledynamo.service;
 
 import com.amazonaws.services.kms.model.NotFoundException;
 
-import br.com.graphene.copom.sampledynamo.entity.Customer;
-import br.com.graphene.copom.sampledynamo.repository.CustomerRepository;
+import br.com.graphene.superapp.sampledynamo.entity.Customer;
+import br.com.graphene.superapp.sampledynamo.repository.CustomerRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

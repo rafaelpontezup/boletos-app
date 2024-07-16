@@ -4,14 +4,16 @@ Microsserviço responsável por expor API REST de geração de boletos. Esta API
 Para isso, este microsserviço se integra a API pública do Bankly para geração automática e rastreável de boletos.
 
 Para mais informações:
- 1. [Documentos da Bankly](https://docs.bankly.com.br/reference/bem-vindo-ao-bankly)
+ 1. [Documentos da Bankly > Home (v2)](https://docs.bankly.com.br/v2/)
  2. Dev Guide (v2)
+    - [Documentos da Bankly > Dev Guide](https://docs.bankly.com.br/v2/docs/manual-do-dev)
     - [Documentos da Bankly > Dev Guide > Emissão de boleto](https://docs.bankly.com.br/v2/docs/emissao-de-boleto)
     - [Documentos da Bankly > Dev Guide > Query by authenticationCode](https://docs.bankly.com.br/v2/docs/consulta-boleto-por-authenticationcode)
     - [Documentos da Bankly > Dev Guide > Impressão do boleto](https://docs.bankly.com.br/v2/docs/impressao-de-boleto)
 3. API (v2)
-    - [Documentos da Bankly > API > OpenAPI](https://github.com/acesso-bankly/open-api/tree/main/apis/v2)
-    - [Documentos da Bankly > API > OpenAPI > boletos](https://github.com/acesso-bankly/open-api/tree/main/apis/v2/boletos)
+    - [Documentos da Bankly > API](https://docs.bankly.com.br/v2/reference)
+    - [Github da Bankly > API > OpenAPI](https://github.com/acesso-bankly/open-api/tree/main/apis/v2)
+    - [Github da Bankly > API > OpenAPI > boletos](https://github.com/acesso-bankly/open-api/tree/main/apis/v2/boletos)
 
 ## Stack e tecnologias
 
